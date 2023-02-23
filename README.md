@@ -31,12 +31,13 @@ Account/POC-Proof of Concept to a Paid account.
 to the customer (Hint:The predictions are stored in the column portcast_predicted_pod_eta.
 Every couple ( container, vessel leg ) has one and only actual arrival. You can give priority to
 pod_ata column and fallback to container_pod_actual_discharge if pod_ata isn’t available )
-Deliverable-2: Anomalies
+
+# Deliverable-2: Anomalies
 1. Use Google Colab: Ipython Notebook to explore these by using pandas (Hint:
 https://github.com/pandas-dev/pandas) for data exploration in the above dataset. (discovery of
 anomalies in the dataset)
 
-# 2. After identifying anomalies draw distribution graphs (Hint: https://github.com/plotly/plotly.py library
+2. After identifying anomalies draw distribution graphs (Hint: https://github.com/plotly/plotly.py library
 to draw your charts) to demonstrate data challenges you have encountered
 3. Export CSV in the same folder where you have Google Colab. (Hint:Only anomalies CSV(s) from
 the above Google Colab notebook)
